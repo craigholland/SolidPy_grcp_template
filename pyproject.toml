@@ -3,9 +3,9 @@ requires = [ "poetry-core",]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "solidpy_flask"
+name = "solidpy_grpc"
 version = "0.0.1"
-description = "Base Template for SolidPy.Flask"
+description = "Base Template for SolidPy.Grpc"
 authors = [ "Craig Holland <craig_holland@hotmail.com>",]
 readme = "README.md"
 [[tool.poetry.source]]
@@ -35,7 +35,7 @@ tox = "^4.15.0"
 pre-commit = "^3.7.1"
 pycparser = "2.22"
 python-dotenv = "^1.0.1"
-flask = "^3.0.3"
+grpcio = "^1.64.0"
 
 [tool.poetry.dependencies.common-core]
 version = "0.2.0"
